@@ -1,9 +1,9 @@
-.share {
+.social {
   display: flex;
   justify-content: center;
 }
 
-.share img {
+.social img {
   padding: 0.75rem;
   width:   1.50rem;
   height:  1.50rem;

@@ -1,0 +1,34 @@
+footer {
+	display: grid;
+	grid-template-columns: 1fr 0.5in [start] 1.25in 2.5in 2.5in 1.25in [end] 0.5in 1fr;
+
+	padding: 0 0 0.5in 0;
+}
+
+footer * { grid-column: start / end; }
+
+@media (max-width: 8.5in) {
+	footer { grid-template-columns: 1fr 5% [start] 15% 30% 30% 15% [end] 5% 1fr; }
+}
+
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.social i {
+  padding: 0.75rem;
+  font-size: 1.5rem;
+}
+.social .fa-twitter:hover {
+  color: #1DA1F2;
+}
+
+.social .fa-envelope:hover {
+  color: #D14836;
+}
+
+.social .fa-instagram:hover {
+  color: #E4405F;
+}

@@ -1,0 +1,29 @@
+header {
+	display: grid;
+	grid-template-columns: 1fr 0.5in [start] 1.25in 2.5in 2.5in 1.25in [end] 0.5in 1fr;
+
+	padding: 0 0 0 0;
+}
+
+header * { grid-column: start / end; }
+
+@media (max-width: 8.5in) {
+	header { grid-template-columns: 1fr 5% [start] 15% 30% 30% 15% [end] 5% 1fr; }
+}
+
+.logo {
+    display: flex;
+    margin-top: 0.5rem;
+    justify-content: center;
+}
+
+.logo img {
+  padding: 0.75rem;
+  width:   3.50rem;
+  height:  3.50rem;
+}
+
+.content .logo {
+  width:   5.50rem;
+  height:  5.50rem;
+}

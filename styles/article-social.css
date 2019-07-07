@@ -8,3 +8,15 @@
   width:   1.50rem;
   height:  1.50rem;
 }
+
+.social .twitter {
+  color: #1DA1F2;
+}
+
+.social .gmail {
+  color: #D14836;
+}
+
+.social .instagram {
+  fill: #E4405F;
+}

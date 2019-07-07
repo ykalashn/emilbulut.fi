@@ -3,20 +3,18 @@
   justify-content: center;
 }
 
-.social img {
+.social i {
   padding: 0.75rem;
-  width:   1.50rem;
-  height:  1.50rem;
+  font-size: 1.5rem;
 }
-
-.social .twitter {
+.social .fa-twitter:hover {
   color: #1DA1F2;
 }
 
-.social .gmail {
+.social .fa-envelope:hover {
   color: #D14836;
 }
 
-.social .instagram {
-  fill: #E4405F;
+.social .fa-instagram:hover {
+  color: #E4405F;
 }
